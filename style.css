@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  
 }
 
 h1,
@@ -19,4 +20,64 @@ h3 {
     rgba(164, 188, 70, 1),
     rgba(132.8367919921875, 160.4375, 24.73410415649414, 1) 100%
   );
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3{
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Smooth animation */
+*{
+  transition: all 0.3s ease;
+}
+
+/* Navbar hover */
+nav ul li{
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+nav ul li:hover{
+  background:#FABE4C;
+  color:white;
+}
+
+/* Button style */
+.button-linear-gradient{
+  background:linear-gradient(180deg,#a4bc46,#859f19);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+}
+
+/* Button hover */
+.button-linear-gradient:hover{
+  transform:scale(1.08);
+  box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Card hover effect */
+.shadow{
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.shadow:hover{
+  transform:translateY(-10px);
+  box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Image hover zoom */
+.shadow img:hover{
+  transform:scale(1.05);
+}
+
+/* Banner text animation */
+header h2{
+  letter-spacing:2px;
 }
